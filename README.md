@@ -12,8 +12,6 @@ Researching a Meta endpoint normally means a different tool, a different login a
 
 Every Meta request and response gets a **Meta View** tab, showing what the identifiers in it actually name:
 
-![The Meta Context tab, resolving a GraphQL operation name to the resolver behind it](docs/img/meta-view.png)
-
 | Tool | What it answers | In Burp | For an agent |
 |---|---|---|---|
 | **Meta Context** | what *is* this id, URL, `doc_id` or operation? | **Meta View** tab on every Meta request | `meta-context` server |

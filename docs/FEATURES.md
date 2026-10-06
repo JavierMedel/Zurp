@@ -8,8 +8,6 @@ Every tool here works only against your own account's data, and each is independ
 
 Resolves an object id, an ad account, a URL, a persisted `doc_id`, a GraphQL operation name or a `com.bloks.*` id to the asset that serves it: an Ent or Node type, an XController, a Graph edge, a GraphQL resolver.
 
-![The Meta Context tab, resolving a GraphQL operation name to the resolver behind it](img/meta-view.png)
-
 * **In Burp**, it runs on its own. Every Meta response you proxy is scanned for URLs, for 14 to 18 digit numbers, for ad accounts written `act_<digits>`, and for the `doc_id` and operation name of every GraphQL call. Candidates are resolved in the background on a periodic tick and rendered in the **Meta View** editor tab that Zurp adds to every Meta request and response.
 * **For an agent**, `meta_context_scan` takes a whole report, HAR excerpt or log and extracts and resolves every candidate in one request; `meta_context_resolve_batch` takes up to 200 already isolated identifiers; `meta_context_resolve` takes one and is the only tool that returns a vanity name.
 * An identifier that resolves to nothing is a normal answer, not an error. Most ids scraped out of live traffic name nothing at all. One identifier can also name several assets: a URL carrying an object id in its query string is both an XController and an Ent.
