@@ -1,4 +1,7 @@
-<h1 align="center">Zurp</h1>
+<h1 align="center">
+  <img src="Meta-Logo.png" alt="Meta" width="150" style="vertical-align: middle;">
+  Zurp
+</h1>
 
 [![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
@@ -6,7 +9,7 @@
 
 Meta bug bounty research tools, in Burp Suite and in your coding agent.
 
-![Zurp in Burp Suite](Zurp-animation.gif)
+<img src="Zurp-animation.gif" alt="Zurp in Burp Suite" width="700">
 
 Researching a Meta endpoint normally means a different tool, a different login and a different token for every question you have about it. Zurp is where those meet: it annotates the traffic already flowing through your proxy, and exposes the same capabilities to an AI agent over the same APIs and the same token.
 
