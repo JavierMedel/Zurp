@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="Meta-Logo.png" alt="Meta" height="36" style="vertical-align: middle;">
+  <img src="Meta-Logo.png" alt="Meta" height="26">
   Zurp
 </h1>
 
